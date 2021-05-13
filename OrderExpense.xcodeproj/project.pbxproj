@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C0618642648172000B92EC2 /* OrderFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0618632648172000B92EC2 /* OrderFile.swift */; };
+		2C061869264835B800B92EC2 /* OrderSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C061868264835B800B92EC2 /* OrderSummary.swift */; };
+		2C06186E2648D98A00B92EC2 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06186D2648D98A00B92EC2 /* AddView.swift */; };
+		2C061873264B4C6B00B92EC2 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C061872264B4C6B00B92EC2 /* Bundle-Decodable.swift */; };
+		2C06187F264C800D00B92EC2 /* ExpenseViewSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C06187E264C800C00B92EC2 /* ExpenseViewSummary.swift */; };
 		2C99DC632642D27800AD9C23 /* OrderExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DC622642D27800AD9C23 /* OrderExpenseApp.swift */; };
 		2C99DC652642D27800AD9C23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DC642642D27800AD9C23 /* ContentView.swift */; };
 		2C99DC672642D27B00AD9C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C99DC662642D27B00AD9C23 /* Assets.xcassets */; };
 		2C99DC6A2642D27B00AD9C23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C99DC692642D27B00AD9C23 /* Preview Assets.xcassets */; };
 		2C99DC752642D27B00AD9C23 /* OrderExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DC742642D27B00AD9C23 /* OrderExpenseTests.swift */; };
 		2C99DC802642D27C00AD9C23 /* OrderExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DC7F2642D27C00AD9C23 /* OrderExpenseUITests.swift */; };
+		2C99DC9C2642F8C800AD9C23 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DC9B2642F8C800AD9C23 /* Orders.swift */; };
+		2C99DCA12642FA6F00AD9C23 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DCA02642FA6E00AD9C23 /* Expenses.swift */; };
+		2C99DCAE26439EC200AD9C23 /* Quote.json in Resources */ = {isa = PBXBuildFile; fileRef = 2C99DCAD26439EC200AD9C23 /* Quote.json */; };
+		2C99DCBE2645042600AD9C23 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C99DCBD2645042600AD9C23 /* Quote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C0618632648172000B92EC2 /* OrderFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderFile.swift; sourceTree = "<group>"; };
+		2C061868264835B800B92EC2 /* OrderSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderSummary.swift; sourceTree = "<group>"; };
+		2C06186D2648D98A00B92EC2 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		2C061872264B4C6B00B92EC2 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		2C06187E264C800C00B92EC2 /* ExpenseViewSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewSummary.swift; sourceTree = "<group>"; };
 		2C99DC5F2642D27800AD9C23 /* OrderExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C99DC622642D27800AD9C23 /* OrderExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExpenseApp.swift; sourceTree = "<group>"; };
 		2C99DC642642D27800AD9C23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +59,10 @@
 		2C99DC7B2642D27C00AD9C23 /* OrderExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrderExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C99DC7F2642D27C00AD9C23 /* OrderExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderExpenseUITests.swift; sourceTree = "<group>"; };
 		2C99DC812642D27C00AD9C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C99DC9B2642F8C800AD9C23 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		2C99DCA02642FA6E00AD9C23 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		2C99DCAD26439EC200AD9C23 /* Quote.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Quote.json; sourceTree = "<group>"; };
+		2C99DCBD2645042600AD9C23 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +114,16 @@
 			isa = PBXGroup;
 			children = (
 				2C99DC622642D27800AD9C23 /* OrderExpenseApp.swift */,
+				2C99DC9B2642F8C800AD9C23 /* Orders.swift */,
+				2C06186D2648D98A00B92EC2 /* AddView.swift */,
+				2C06187E264C800C00B92EC2 /* ExpenseViewSummary.swift */,
+				2C061868264835B800B92EC2 /* OrderSummary.swift */,
+				2C0618632648172000B92EC2 /* OrderFile.swift */,
 				2C99DC642642D27800AD9C23 /* ContentView.swift */,
+				2C061872264B4C6B00B92EC2 /* Bundle-Decodable.swift */,
+				2C99DCBD2645042600AD9C23 /* Quote.swift */,
+				2C99DCAD26439EC200AD9C23 /* Quote.json */,
+				2C99DCA02642FA6E00AD9C23 /* Expenses.swift */,
 				2C99DC662642D27B00AD9C23 /* Assets.xcassets */,
 				2C99DC6B2642D27B00AD9C23 /* Info.plist */,
 				2C99DC682642D27B00AD9C23 /* Preview Content */,
@@ -234,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C99DC6A2642D27B00AD9C23 /* Preview Assets.xcassets in Resources */,
+				2C99DCAE26439EC200AD9C23 /* Quote.json in Resources */,
 				2C99DC672642D27B00AD9C23 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +287,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C99DCA12642FA6F00AD9C23 /* Expenses.swift in Sources */,
+				2C061869264835B800B92EC2 /* OrderSummary.swift in Sources */,
+				2C99DC9C2642F8C800AD9C23 /* Orders.swift in Sources */,
+				2C0618642648172000B92EC2 /* OrderFile.swift in Sources */,
+				2C06187F264C800D00B92EC2 /* ExpenseViewSummary.swift in Sources */,
+				2C06186E2648D98A00B92EC2 /* AddView.swift in Sources */,
+				2C061873264B4C6B00B92EC2 /* Bundle-Decodable.swift in Sources */,
 				2C99DC652642D27800AD9C23 /* ContentView.swift in Sources */,
+				2C99DCBE2645042600AD9C23 /* Quote.swift in Sources */,
 				2C99DC632642D27800AD9C23 /* OrderExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
